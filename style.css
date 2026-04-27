@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+/* Hero Section */
+#hero {
+  background: url('https://source.unsplash.com/featured/?focus,brain,creativity') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 8px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #ff4081;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #e73370;
+}
+/* Section Styling */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#signup form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#signup input[type="email"] {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#signup button {
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#signup button:hover {
+  background: #1976d2;
+}
+/* Video Grid */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.video-item iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 6px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f1f1f1;
+  color: #555;
+  font-size: 0.9rem;
+}
